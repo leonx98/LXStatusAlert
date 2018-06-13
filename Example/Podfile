@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LXStatusAlert_Example' do
+  pod 'LXStatusAlert', :path => '../'
+
+  target 'LXStatusAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
