@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69306E44375F41EE994914DE62B5F641 /* Pods-LXStatusAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3406BC29F40F816FA3A557800A536C /* Pods-LXStatusAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7607D661DDF4B1B9171D557968560C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A666F456524C02E2CF717235F69C8F53 /* Pods-LXStatusAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC818586D95BA81AB7923218A2FFA1D /* Pods-LXStatusAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB236854EF8E07F1657C9E4D7823F99F /* Pods-LXStatusAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7540CA90C74DE0F2E12CD16A7CB338B /* Pods-LXStatusAlert_Tests-dummy.m */; };
+		CB275CF6FDCAC7E5B250F7B793B6E047 /* Pods-LXStatusAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3477B0414D9F0671B2158A7F9B26D2 /* Pods-LXStatusAlert_Example-dummy.m */; };
+		D813BA0F7E68101169163FBE5A0E5042 /* LXStatusAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E9737DF08CCE638C1C378EF1F2D798 /* LXStatusAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDD89EBE5E8A4A758217FB2AB95635B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DFF7E3FFB4912ADA3F8BB46B361F2638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E618671020D1D817006FE10A /* LXStatusAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618670F20D1D817006FE10A /* LXStatusAlert.swift */; };
+		F378F51AEDDE04C7D8C414762E72A73B /* LXStatusAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A127D72315D2FAD0BFFD59C863AC2 /* LXStatusAlert-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003CB6C32DE3795C96EA2C96D9BB8B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BDC47E8C8579DBCB313AAA0464F7F6;
+			remoteInfo = LXStatusAlert;
+		};
+		A7D9F4B5F264899DBBB461A18CE2F0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1AD4C826AC4865B843A41897D6D563;
+			remoteInfo = "Pods-LXStatusAlert_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D674A995B41BA8BEC9137E39C030CC /* Pods-LXStatusAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXStatusAlert_Example.modulemap"; sourceTree = "<group>"; };
+		07A560C5E1850BD4B7FFDA3F95FF1F50 /* Pods-LXStatusAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXStatusAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F047F893CC8CEDDA413B54D0F8B76C3 /* Pods-LXStatusAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXStatusAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		135A65B99B5F26C3E4F3CC0263114AC6 /* Pods_LXStatusAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXStatusAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B1BA8A7C431995DD520A8D6DD4DFF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D8A816F6E47BBCFDC1B1C6053858B22 /* Pods-LXStatusAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXStatusAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		23C78C7FC521D3CFBE6A5343FC22CD69 /* Pods-LXStatusAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXStatusAlert_Example-resources.sh"; sourceTree = "<group>"; };
+		2CB980F6F220DB878D1B229BC8CC94DB /* Pods-LXStatusAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXStatusAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		375C555A04B93D600DAFA66D37BBCE3F /* Pods-LXStatusAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXStatusAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B1CC06605FE1010BBB38C4F313B6154 /* Pods-LXStatusAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXStatusAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BB532B3D79C0A49B618EE558119F01E /* Pods-LXStatusAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXStatusAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		48D1CAE6058DC552991002D7E7C27BCF /* LXStatusAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXStatusAlert.xcconfig; sourceTree = "<group>"; };
+		587F9DD96D3A02C99956726714CA5688 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F706E63A6081E0B9BDE2D53E4B9C5AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		644A127D72315D2FAD0BFFD59C863AC2 /* LXStatusAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXStatusAlert-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67EB13F0449C1B3FC23ADA9E15C827CD /* LXStatusAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXStatusAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC818586D95BA81AB7923218A2FFA1D /* Pods-LXStatusAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXStatusAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6EB834A3A5CB9B73C4D75CE40EE46B1B /* LXStatusAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXStatusAlert-prefix.pch"; sourceTree = "<group>"; };
+		76E9737DF08CCE638C1C378EF1F2D798 /* LXStatusAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXStatusAlert-umbrella.h"; sourceTree = "<group>"; };
+		859F00FCC419DEAF3A023D5EFDD751D1 /* Pods-LXStatusAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXStatusAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		8AD40A5B9F5C7E7149D3C7DC23B3FC52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A73AEF245BA8AF9F647751A2079894E /* LXStatusAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LXStatusAlert.podspec; sourceTree = "<group>"; };
+		9F92BF40DD6375D508B0126F089DE8AE /* LXStatusAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXStatusAlert.modulemap; sourceTree = "<group>"; };
+		AB3477B0414D9F0671B2158A7F9B26D2 /* Pods-LXStatusAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXStatusAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		C78E4579994F0C14DCE2EB186236414D /* Pods-LXStatusAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXStatusAlert_Tests-resources.sh"; sourceTree = "<group>"; };
+		CC3406BC29F40F816FA3A557800A536C /* Pods-LXStatusAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXStatusAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		D43D9424FEC50F20AEC902A368994B50 /* Pods-LXStatusAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXStatusAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCAD9E8231DB2994E9B35054FA607B3F /* Pods-LXStatusAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXStatusAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E618670F20D1D817006FE10A /* LXStatusAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LXStatusAlert.swift; path = LXStatusAlert/Classes/LXStatusAlert.swift; sourceTree = "<group>"; };
+		EBDC44051BB2D7F7FEEFA3852DEFCC22 /* Pods_LXStatusAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXStatusAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8FAEB173B48ABE4E9DA9DFD9058BBF /* Pods-LXStatusAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXStatusAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FBD7CE672C45FDA009E3889F9CCB6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7540CA90C74DE0F2E12CD16A7CB338B /* Pods-LXStatusAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXStatusAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3113BB79A78D51E76DCC25126B630687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD89EBE5E8A4A758217FB2AB95635B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349200DFD4B8CF3141E20B53D9536491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF7E3FFB4912ADA3F8BB46B361F2638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE1ECE957D624A4FA731DCCB573CAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7607D661DDF4B1B9171D557968560C94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE2BF067977E3DEEE02BC38A193CB2A /* Pods-LXStatusAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				587F9DD96D3A02C99956726714CA5688 /* Info.plist */,
+				859F00FCC419DEAF3A023D5EFDD751D1 /* Pods-LXStatusAlert_Tests.modulemap */,
+				0F047F893CC8CEDDA413B54D0F8B76C3 /* Pods-LXStatusAlert_Tests-acknowledgements.markdown */,
+				375C555A04B93D600DAFA66D37BBCE3F /* Pods-LXStatusAlert_Tests-acknowledgements.plist */,
+				F7540CA90C74DE0F2E12CD16A7CB338B /* Pods-LXStatusAlert_Tests-dummy.m */,
+				1D8A816F6E47BBCFDC1B1C6053858B22 /* Pods-LXStatusAlert_Tests-frameworks.sh */,
+				C78E4579994F0C14DCE2EB186236414D /* Pods-LXStatusAlert_Tests-resources.sh */,
+				6AC818586D95BA81AB7923218A2FFA1D /* Pods-LXStatusAlert_Tests-umbrella.h */,
+				DCAD9E8231DB2994E9B35054FA607B3F /* Pods-LXStatusAlert_Tests.debug.xcconfig */,
+				2CB980F6F220DB878D1B229BC8CC94DB /* Pods-LXStatusAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-LXStatusAlert_Tests";
+			path = "Target Support Files/Pods-LXStatusAlert_Tests";
+			sourceTree = "<group>";
+		};
+		1BC8DA347AC0EE7A2E160AA81DDFABA2 /* LXStatusAlert */ = {
+			isa = PBXGroup;
+			children = (
+				E618670F20D1D817006FE10A /* LXStatusAlert.swift */,
+				B756B5ED9DBFBAE5588287CBC6029810 /* Pod */,
+				E2FACA2DF39F466D43DAB6BE64D295E7 /* Support Files */,
+			);
+			name = LXStatusAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		643216DCC483E67A52633F1AF972F087 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BC8DA347AC0EE7A2E160AA81DDFABA2 /* LXStatusAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				643216DCC483E67A52633F1AF972F087 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FFC5D9103EC059AB0A310DB26DC86E9A /* Products */,
+				C268217A022A5D3314715B0F17CC96EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B097DE0A878707AA4B2E2B9EE5D61CAC /* Pods-LXStatusAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8AD40A5B9F5C7E7149D3C7DC23B3FC52 /* Info.plist */,
+				00D674A995B41BA8BEC9137E39C030CC /* Pods-LXStatusAlert_Example.modulemap */,
+				3B1CC06605FE1010BBB38C4F313B6154 /* Pods-LXStatusAlert_Example-acknowledgements.markdown */,
+				D43D9424FEC50F20AEC902A368994B50 /* Pods-LXStatusAlert_Example-acknowledgements.plist */,
+				AB3477B0414D9F0671B2158A7F9B26D2 /* Pods-LXStatusAlert_Example-dummy.m */,
+				3BB532B3D79C0A49B618EE558119F01E /* Pods-LXStatusAlert_Example-frameworks.sh */,
+				23C78C7FC521D3CFBE6A5343FC22CD69 /* Pods-LXStatusAlert_Example-resources.sh */,
+				CC3406BC29F40F816FA3A557800A536C /* Pods-LXStatusAlert_Example-umbrella.h */,
+				ED8FAEB173B48ABE4E9DA9DFD9058BBF /* Pods-LXStatusAlert_Example.debug.xcconfig */,
+				07A560C5E1850BD4B7FFDA3F95FF1F50 /* Pods-LXStatusAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-LXStatusAlert_Example";
+			path = "Target Support Files/Pods-LXStatusAlert_Example";
+			sourceTree = "<group>";
+		};
+		B756B5ED9DBFBAE5588287CBC6029810 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5F706E63A6081E0B9BDE2D53E4B9C5AC /* LICENSE */,
+				9A73AEF245BA8AF9F647751A2079894E /* LXStatusAlert.podspec */,
+				13B1BA8A7C431995DD520A8D6DD4DFF0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C268217A022A5D3314715B0F17CC96EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B097DE0A878707AA4B2E2B9EE5D61CAC /* Pods-LXStatusAlert_Example */,
+				0DE2BF067977E3DEEE02BC38A193CB2A /* Pods-LXStatusAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2FACA2DF39F466D43DAB6BE64D295E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2FBD7CE672C45FDA009E3889F9CCB6C /* Info.plist */,
+				9F92BF40DD6375D508B0126F089DE8AE /* LXStatusAlert.modulemap */,
+				48D1CAE6058DC552991002D7E7C27BCF /* LXStatusAlert.xcconfig */,
+				644A127D72315D2FAD0BFFD59C863AC2 /* LXStatusAlert-dummy.m */,
+				6EB834A3A5CB9B73C4D75CE40EE46B1B /* LXStatusAlert-prefix.pch */,
+				76E9737DF08CCE638C1C378EF1F2D798 /* LXStatusAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LXStatusAlert";
+			sourceTree = "<group>";
+		};
+		FFC5D9103EC059AB0A310DB26DC86E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EB13F0449C1B3FC23ADA9E15C827CD /* LXStatusAlert.framework */,
+				135A65B99B5F26C3E4F3CC0263114AC6 /* Pods_LXStatusAlert_Example.framework */,
+				EBDC44051BB2D7F7FEEFA3852DEFCC22 /* Pods_LXStatusAlert_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		846EFBAB999D6962AF2FB0DDF7A13DAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A666F456524C02E2CF717235F69C8F53 /* Pods-LXStatusAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA7986F42958728FBD35299A46E04A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D813BA0F7E68101169163FBE5A0E5042 /* LXStatusAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF210194C1B804892DFC2B7A29180A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69306E44375F41EE994914DE62B5F641 /* Pods-LXStatusAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D1AD4C826AC4865B843A41897D6D563 /* Pods-LXStatusAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262349568810AF4F43C0CAAC2E4EB2B4 /* Build configuration list for PBXNativeTarget "Pods-LXStatusAlert_Example" */;
+			buildPhases = (
+				D532E6499177EA77FE0BDE20F171CB16 /* Sources */,
+				3113BB79A78D51E76DCC25126B630687 /* Frameworks */,
+				BAF210194C1B804892DFC2B7A29180A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB1929A1BF1BF2FBB459FDC3ABEB6E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LXStatusAlert_Example";
+			productName = "Pods-LXStatusAlert_Example";
+			productReference = 135A65B99B5F26C3E4F3CC0263114AC6 /* Pods_LXStatusAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43BDC47E8C8579DBCB313AAA0464F7F6 /* LXStatusAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB166F94B9136DF7163C97B25EAF7CF7 /* Build configuration list for PBXNativeTarget "LXStatusAlert" */;
+			buildPhases = (
+				C944254559BFDF4F10A9A0B08DD659DC /* Sources */,
+				349200DFD4B8CF3141E20B53D9536491 /* Frameworks */,
+				9EA7986F42958728FBD35299A46E04A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXStatusAlert;
+			productName = LXStatusAlert;
+			productReference = 67EB13F0449C1B3FC23ADA9E15C827CD /* LXStatusAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4799A6C058450F32A93A1FA74C6D3764 /* Pods-LXStatusAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3A11A1B9917CBBB9CA1F5AFED67908 /* Build configuration list for PBXNativeTarget "Pods-LXStatusAlert_Tests" */;
+			buildPhases = (
+				B8EE332D8D580FFCF2B138AAAED2BF4C /* Sources */,
+				EDE1ECE957D624A4FA731DCCB573CAE2 /* Frameworks */,
+				846EFBAB999D6962AF2FB0DDF7A13DAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9ECEE58BF7CFED31E34B5D7B09B69AF /* PBXTargetDependency */,
+			);
+			name = "Pods-LXStatusAlert_Tests";
+			productName = "Pods-LXStatusAlert_Tests";
+			productReference = EBDC44051BB2D7F7FEEFA3852DEFCC22 /* Pods_LXStatusAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					43BDC47E8C8579DBCB313AAA0464F7F6 = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FFC5D9103EC059AB0A310DB26DC86E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43BDC47E8C8579DBCB313AAA0464F7F6 /* LXStatusAlert */,
+				2D1AD4C826AC4865B843A41897D6D563 /* Pods-LXStatusAlert_Example */,
+				4799A6C058450F32A93A1FA74C6D3764 /* Pods-LXStatusAlert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8EE332D8D580FFCF2B138AAAED2BF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB236854EF8E07F1657C9E4D7823F99F /* Pods-LXStatusAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944254559BFDF4F10A9A0B08DD659DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E618671020D1D817006FE10A /* LXStatusAlert.swift in Sources */,
+				F378F51AEDDE04C7D8C414762E72A73B /* LXStatusAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D532E6499177EA77FE0BDE20F171CB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB275CF6FDCAC7E5B250F7B793B6E047 /* Pods-LXStatusAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB1929A1BF1BF2FBB459FDC3ABEB6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXStatusAlert;
+			target = 43BDC47E8C8579DBCB313AAA0464F7F6 /* LXStatusAlert */;
+			targetProxy = 003CB6C32DE3795C96EA2C96D9BB8B67 /* PBXContainerItemProxy */;
+		};
+		F9ECEE58BF7CFED31E34B5D7B09B69AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LXStatusAlert_Example";
+			target = 2D1AD4C826AC4865B843A41897D6D563 /* Pods-LXStatusAlert_Example */;
+			targetProxy = A7D9F4B5F264899DBBB461A18CE2F0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D55C2E2853D5E88360FACFE67CD638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAD9E8231DB2994E9B35054FA607B3F /* Pods-LXStatusAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXStatusAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXStatusAlert_Tests/Pods-LXStatusAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F527A976E82E043D98FFB1BF5DEB20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A560C5E1850BD4B7FFDA3F95FF1F50 /* Pods-LXStatusAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXStatusAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXStatusAlert_Example/Pods-LXStatusAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2283DD90F39BA90A32CD119817C3EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8FAEB173B48ABE4E9DA9DFD9058BBF /* Pods-LXStatusAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXStatusAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXStatusAlert_Example/Pods-LXStatusAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D966C4E64CF567FBE84A6E07FCDC6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D1CAE6058DC552991002D7E7C27BCF /* LXStatusAlert.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXStatusAlert/LXStatusAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXStatusAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXStatusAlert/LXStatusAlert.modulemap";
+				PRODUCT_MODULE_NAME = LXStatusAlert;
+				PRODUCT_NAME = LXStatusAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33B15766617082DA07629A3CBF12061C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB980F6F220DB878D1B229BC8CC94DB /* Pods-LXStatusAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXStatusAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXStatusAlert_Tests/Pods-LXStatusAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F25215C82C912F03128AB469CFD261D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D1CAE6058DC552991002D7E7C27BCF /* LXStatusAlert.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXStatusAlert/LXStatusAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXStatusAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXStatusAlert/LXStatusAlert.modulemap";
+				PRODUCT_MODULE_NAME = LXStatusAlert;
+				PRODUCT_NAME = LXStatusAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262349568810AF4F43C0CAAC2E4EB2B4 /* Build configuration list for PBXNativeTarget "Pods-LXStatusAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2283DD90F39BA90A32CD119817C3EE06 /* Debug */,
+				1F527A976E82E043D98FFB1BF5DEB20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3A11A1B9917CBBB9CA1F5AFED67908 /* Build configuration list for PBXNativeTarget "Pods-LXStatusAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D55C2E2853D5E88360FACFE67CD638 /* Debug */,
+				33B15766617082DA07629A3CBF12061C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB166F94B9136DF7163C97B25EAF7CF7 /* Build configuration list for PBXNativeTarget "LXStatusAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D966C4E64CF567FBE84A6E07FCDC6C2 /* Debug */,
+				F25215C82C912F03128AB469CFD261D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

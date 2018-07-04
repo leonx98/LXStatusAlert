@@ -1,0 +1,6 @@
+framework module Pods_LXStatusAlert_Example {
+  umbrella header "Pods-LXStatusAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - LXStatusAlert (0.1.0)
+
+DEPENDENCIES:
+  - LXStatusAlert (from `../`)
+
+EXTERNAL SOURCES:
+  LXStatusAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXStatusAlert: 9f2557695a8196b116fa0d528e79cada49d6af7e
+
+PODFILE CHECKSUM: 511a0f87c27c132f91e46f642c4ff1906b1bafa0
+
+COCOAPODS: 1.5.3
